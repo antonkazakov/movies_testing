@@ -1,0 +1,25 @@
+ext {
+    retrofitVersion = '2.6.1'
+    jsr330Version = '1'
+    daggerVersion = '2.24'
+    roomVersion = '2.1.0'
+    rxJavaVersion = '2.1.9'
+    rxAndroidVersion = '2.0.2'
+    gsonVersion = '2.8.4'
+    okhttpVersion = '4.2.1'
+    picassoVersion = '2.71828'
+
+    retrofit = "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    jsr330 = "javax.inject:javax.inject:$jsr330Version"
+    dagger = "com.google.dagger:dagger:$daggerVersion"
+    daggerCompiler = "com.google.dagger:dagger-compiler:$daggerVersion"
+    room = "androidx.room:room-runtime:$roomVersion"
+    roomCompiler = "androidx.room:room-compiler:$roomVersion"
+    rxJava = "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+    rxAndroid = "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+    gson = "com.google.code.gson:gson:$gsonVersion"
+    gsonConverter = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    rxAdapter = "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    okHttpMockServer = "com.squareup.okhttp3:mockwebserver:$okhttpVersion"
+    picasso = "com.squareup.picasso:picasso:$picassoVersion"
+}
